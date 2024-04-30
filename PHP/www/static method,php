@@ -1,0 +1,12 @@
+<?php
+class Produkti {
+    
+    public static function vlera($cmimi, $sasia) {
+        $v = $cmimi * $sasia;
+        return $v;
+    }
+
+}
+
+echo Produkti::vlera(10,5);
+?>
